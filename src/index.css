@@ -94,7 +94,7 @@
     @apply border border-solid border-slate-600;
 }
 .input-pri{
-    @apply border border-solid border-gray-700 bg-transparent rounded-xl p-4 ;
+    @apply border border-solid border-gray-700 bg-transparent rounded-xl p-4 outline-none focus:border-yellow-400 focus:invalid:border-yellow-300 focus:placeholder-shown:border-red-400;
 }
 
 .lvt-transition{
@@ -115,4 +115,8 @@
 
 .lvt-header-main{
     @apply relative inline-block after:absolute after:bottom-[-16px] after:left-0 after:w-16 after:h-1 after:bg-gradient-to-r from-purple-500 to-pink-500 after:rounded-3xl mb-10 capitalize;
+}
+
+.lvt-code-demo{
+@apply capitalize font-medium w-fit px-4 py-1 border-primary rounded-lg text-yellow-200;
 }

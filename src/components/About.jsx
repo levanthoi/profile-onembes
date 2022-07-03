@@ -65,13 +65,13 @@ const About = () => {
     return (
         <div className="p-6">
             <h1 className="lvt-header-main"
-            >About Me
+            >About Me 🙂
             </h1>
             <section className="pr-3 md:pr-10 lg:pr-24 text-base text-gray-400">
                 <span>I'm a <i><b>Developer</b></i></span> <br />
-                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis perspiciatis consequatur molestias, eius ducimus quo aspernatur ipsum, qui delectus eum culpa dolore possimus alias quibusdam voluptates eligendi, et error est.
+                <span>Hello, tôi đang là một sinh viên và dần hướng đến một biu ti phun sờ táck... <br /> RẤT VUI KHI BẠN ĐÃ GHÉ THĂM !!!
                 </span><br />
-                <div className="mt-4">Độc thân vui tính</div>
+                <div className="mt-4">Tình trạng: Độc thân😢</div>
             </section>
             <section>
                 <h1 className="my-6">Service</h1>

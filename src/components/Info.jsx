@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiMail } from 'react-icons/fi';
-import { BsPhone } from 'react-icons/bs';
+import { BsPhone, BsPiggyBank } from 'react-icons/bs';
 import { GoLocation } from 'react-icons/go';
 import { VscCalendar } from 'react-icons/vsc';
 
@@ -14,27 +14,34 @@ const Info = () => {
       icon: <FiMail size={25} className="" />,
       title: "Email",
       subtitle: "lethoi1506@gmail.com",
-      href: "mailto:lethoi1506@gmail.com",
+      href: "mailto:lethoi1506@gmail.com"
     },
     {
       id: 2,
       icon: <BsPhone size={25} className="" />,
       title: "Phone",
       subtitle: "+84339083266",
-      href: "tel:+84339083266",
+      href: "tel:+84339083266"
     },
     {
       id: 3,
       icon: <VscCalendar size={25} className="" />,
       title: "Birthday",
-      subtitle: <time dateTime="15-06-2xxx">15-06-2xxx</time>,
+      subtitle: <time dateTime="15-06-2xxx">15-06-2xxx</time>
     },
     {
       id: 4,
       icon: <GoLocation size={25} className="" />,
       title: "Location",
-      subtitle: <address>Nga Sơn, Thanh Hóa</address>,
+      subtitle: <address>Nga Sơn, Thanh Hóa</address>
     },
+    {
+      id: 5,
+      icon: <BsPiggyBank size={25} className="" />,
+      title: "Banking",
+      href: "https://in4bank.tk",
+      subtitle: "in4bank.tk"
+    }
   ];
   const socials = [
     {

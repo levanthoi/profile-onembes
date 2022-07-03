@@ -6,7 +6,7 @@ const SideBar = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="min-w-[260px] h-full bg-gray-dark rounded-3xl border-primary sticky lvt-transition">
+    <div className="min-w-[260px] h-full bg-gray-dark rounded-3xl border-primary sticky duration-500">
       <div className="flex flex-row p-4 xl:px-14 xl:pt-16 xl:flex-col items-center xl:justify-center justify-start relative">
         <figure className="bg-gray-light mr-4 w-20 md:w-24 xl:w-36 rounded-3xl">
           <img src={avatar} alt="my-avatar" className="w-full object-cover rounded-3xl" />
@@ -24,7 +24,7 @@ const SideBar = () => {
         <Info />
       </div>
         {show && (
-          <div className="lvt-transition">
+          <div className="duration-500">
             <Info />
           </div>
         )}
